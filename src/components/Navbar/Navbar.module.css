@@ -1,0 +1,41 @@
+.navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.linksContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.linksContainer .link {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.linksContainer .activeLink {
+    font-weight: bold;
+    color: orange;
+    text-decoration: none;
+}
+
+.searchBarContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchBarBtn {
+    background-color: orange;
+    color: white;
+    border: 0;
+    padding: 2px 5px;
+}

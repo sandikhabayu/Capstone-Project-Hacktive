@@ -1,0 +1,24 @@
+.main {
+    background-color: #FEF3E2;
+    min-height: 100vh;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.newsListContainer {
+    display: flex;
+    width: 60%;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
